@@ -1,0 +1,80 @@
+:root{
+    --clr-primary-200: #F3EED9;
+
+    --clr-primary-250: #F3EED9;
+
+    --clr-primary-400: #842936;
+
+    --clr-primary-450: #842936;
+
+    --clr-neutral-100:#fff;
+
+    --clr-neutral-900: #222C2A;
+
+    --clr-image-btn: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/moon-2184249-1828734.png");
+
+    --foreground: var(--clr-dark);
+    --background: var(--clr-light);
+
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-accent: 'Playfair Display', serif;
+}
+
+#name-tooltip{
+    width: 100%;
+}
+
+#linkedin{
+    width: 43px;
+   
+    display: inline-block;
+    padding: 0px;
+    margin-top: -5px;
+    border: 0px;
+    background-color: var(--clr-primary-200);
+}
+.tooltip-header {
+  position: relative;
+  display: inline-block;
+  max-width:380px;
+}
+.tooltip_1 {
+  position: relative;
+  display: inline-block;
+  max-width:380px;
+}
+.tooltip1,
+.tooltip2,
+.tooltip3 {
+    position: relative;
+    display: inline-block;
+    max-width:380px;
+    max-height: 50px;
+  }
+  
+  .tooltip1 .tooltiptext, 
+  .tooltip2 .tooltiptext,
+  .tooltip3 .tooltiptext,
+  .tooltip_1 .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    text-align: center;
+    border-radius: 4.5px;
+    padding: 5px 3px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip_1:hover .tooltiptext {
+    visibility: visible;
+    }
+  .tooltip1:hover .tooltiptext,
+  .tooltip2:hover .tooltiptext,
+  .tooltip3:hover .tooltiptext {
+    visibility: visible;
+    }
+
+    
