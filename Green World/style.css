@@ -1,0 +1,289 @@
+/*https://fontawesome.com/
+Tu sú super ikony
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04AA6D;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+.logo{
+    width: 80px;
+    margin-right: 45px;
+    color: white;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+.nav-left img{
+size: 50%;
+}
+h1{
+    margin-left: -50px;
+}
+.nav-left img:hover{
+    cursor: pointer;
+}
+.nav-user-icon img{
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-user-icon{
+    margin-left: 30px;
+}
+.search-box{
+    background-color: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.search-box img{
+    width: 18px;
+}
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    background:rgb(229 243 232);
+}
+.left-sidebar{
+   /* background: #e0ffdd; */
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+.right-sidebar{
+    background: #e0ffdd;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    padding: 20px;
+    border-radius: 25px;
+    color: darkslategray;
+}
+.main-content{
+    flex-basis: 47%;
+    border-radius: 15px;
+}
+.imp-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+.imp-links a img{
+    width: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.imp-links a:last-child{
+    margin-left: 20px;
+    color: #04AA6D;
+}
+
+.imp-links{
+    border-bottom:  1px solid grey;
+}
+.fav-res img{
+    margin: 5px;
+    width: 54px;
+    height: 54px;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+}
+.fav-res img:hover{
+    margin: 0px;
+
+    width: 64px;
+    height: 64px;
+    box-shadow: 0 0 20px grey;
+    transition: 0.25s;
+    border: 1.5px solid rgba(163, 255, 25, 0.753);
+}
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.sidebar-title a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #04AA6D;
+}
+
+
+.main-content{
+    background: #f0faee;
+    height: 2500px;
+}
+.event{
+    display: flex;  
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.left-event{
+    border-radius: 10px;
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+    background-color: lightgreen;
+}
+.event p{
+    font-size: 10px;
+}
+.event a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #04AA6D;
+}
+.left-event span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    font-size: 10px;
+    padding:4px 0 ;
+}
+.green-location{
+    width: 10px;
+}
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.hungry-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+ .hungry-list .hungry img{
+   width: 40px;
+   border-radius: 50%;
+   margin-right: 5px;
+}
+.hungry-list:hover{
+    cursor: pointer;
+}
+.story-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.story{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.story:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.story img{
+width: 35px;
+position: absolute;
+border-radius: 50%;
+top: 1px;
+left: 1px;
+border-radius: 5px solid white;
+}
+
+.story p{
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 1px;
+    left: 5px;
+    border-radius: 5px solid white;
+    color: white;
+}
+.story1{
+    background-image: linear-gradient(transparent, rgb(95, 95, 95)), url(https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/153605597_4331872446837540_7513114237959578756_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=mYAiX_cps9QAX-lc0cr&tn=ebJGdeiBrtXm5dlx&_nc_ht=scontent-vie1-1.xx&oh=ef7bf5bf762fa9dbdd03a7167856e2dc&oe=616655F0);
+}
+.story2{
+    background-image: linear-gradient(transparent, rgb(95, 95, 95)), url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/07/25/10/istock-1152435151.jpg?width=1200);
+}
+.story3{
+    background-image: linear-gradient(transparent, rgb(95, 95, 95)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9kQVMBNsbXorfUOSPsBCjEFiywuPpMlU35Q&usqp=CAU);
+}
+.story4{
+    background-image: linear-gradient(transparent, rgb(95, 95, 95)), url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/toomas-tartes-yizrl9n-eda-unsplash-1571336397.jpg);
+}
+.story5{
+    background-image: linear-gradient(transparent, rgb(95, 95, 95)), url(https://www.ktchnrebel.com/wp-content/uploads/2019/03/NM-by-Food-Ink-Corn-Cob-Dish-Printing-Closeup_2.jpg);
+}
+.write-post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-profile p{
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #626262;
+}
+.user-profile small{
+   font-size: 12px;
+}
