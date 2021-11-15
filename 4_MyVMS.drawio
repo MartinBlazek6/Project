@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T15:06:31.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="-Z3c_OdkwRfLUnWZtWDP" version="15.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-15T15:07:12.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="qVTOFCZKyXQ4ytWsUiJo" version="15.7.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="4 MyVMs">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -582,7 +582,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WytcproJrRieEFMJzIi2" name="3 ConfigureSkybridVMs">
-    <mxGraphModel dx="1673" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="2205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ntgfPw1k1oM0pjv2z0U9-0" />
         <mxCell id="ntgfPw1k1oM0pjv2z0U9-1" parent="ntgfPw1k1oM0pjv2z0U9-0" />
@@ -865,7 +865,7 @@
         <mxCell id="u-DMCYWrtirSnAJwYexo-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#d3d3d3;strokeWidth=2;align=center;" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
           <mxGeometry x="100" y="1290" width="660" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="u-DMCYWrtirSnAJwYexo-48" value="&lt;h1&gt;Post build check&lt;/h1&gt;&lt;p&gt;These check functions are executed id URL= MyVMs. Tester could add new check functions from resources named checkVM_tools&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;align=left;" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
+        <mxCell id="u-DMCYWrtirSnAJwYexo-48" value="&lt;h1&gt;Post build check&lt;/h1&gt;&lt;p&gt;These check functions are executed in URL= MyVMs. Tester could add new check functions from resources named checkVM_tools&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;align=left;" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
           <mxGeometry x="340" y="1350" width="400" height="250" as="geometry" />
         </mxCell>
         <mxCell id="u-DMCYWrtirSnAJwYexo-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00B336;strokeWidth=2;fontSize=12;align=left;" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
