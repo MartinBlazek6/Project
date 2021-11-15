@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T06:47:09.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="9KitHG8TktGF_Msf5qYe" version="15.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-15T06:53:39.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Q5GDUcVyyUMvat9-ghCL" version="15.7.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="4 MyVMs">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -377,47 +377,56 @@
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-18" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="fyQAbidE1kqIETb2FaZQ-1" source="16Z4Iu2NCQRLMPmPR1Lz-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="1030" as="targetPoint" />
+            <mxPoint x="174" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-19" value="URL=CleanMPC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="100" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="114" y="940" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-23" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fyQAbidE1kqIETb2FaZQ-1" source="16Z4Iu2NCQRLMPmPR1Lz-24" target="16Z4Iu2NCQRLMPmPR1Lz-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="1100" as="targetPoint" />
+            <mxPoint x="174" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-24" value="variable &lt;b&gt;search &lt;/b&gt;= MPC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="80" y="1030" width="160" height="40" as="geometry" />
+          <mxGeometry x="94" y="1010" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-29" value="Page should contain &lt;b&gt;search+string&lt;br&gt;string = &lt;/b&gt;12.x-" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="80" y="1100" width="160" height="40" as="geometry" />
+          <mxGeometry x="94" y="1080" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-36" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="fyQAbidE1kqIETb2FaZQ-1" source="16Z4Iu2NCQRLMPmPR1Lz-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="494" y="1030" as="targetPoint" />
+            <mxPoint x="384" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-37" value="URL=CleanMPC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="434" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="324" y="940" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-38" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fyQAbidE1kqIETb2FaZQ-1" source="16Z4Iu2NCQRLMPmPR1Lz-39" target="16Z4Iu2NCQRLMPmPR1Lz-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="494" y="1100" as="targetPoint" />
+            <mxPoint x="384" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-39" value="variable &lt;b&gt;search &lt;/b&gt;= :)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="414" y="1030" width="160" height="40" as="geometry" />
+          <mxGeometry x="304" y="1010" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-40" value="Page should not contain any VM cards as results" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="414" y="1100" width="160" height="40" as="geometry" />
+          <mxGeometry x="304" y="1080" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-41" value="Positive flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="120" y="940" width="90" height="30" as="geometry" />
+          <mxGeometry x="134" y="920" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="16Z4Iu2NCQRLMPmPR1Lz-42" value="Negative flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
-          <mxGeometry x="449" y="940" width="90" height="30" as="geometry" />
+          <mxGeometry x="339" y="920" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zs3FgnqoM7aNFs2H3e2C-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00B336;strokeWidth=2;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
+          <mxGeometry x="84" y="920" width="660" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zs3FgnqoM7aNFs2H3e2C-1" value="Desc." style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
+          <mxGeometry x="524" y="920" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zs3FgnqoM7aNFs2H3e2C-2" value="&lt;h1&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; Search MPC&lt;/h1&gt;&lt;p&gt;Checks if there is a correct amount of search results and if they all match the searched term&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="fyQAbidE1kqIETb2FaZQ-1">
+          <mxGeometry x="524" y="920" width="220" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
