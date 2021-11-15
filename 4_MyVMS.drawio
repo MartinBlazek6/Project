@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T14:54:06.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HWif0jxDr8wlydzF_D9l" version="15.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-15T14:55:01.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="oI33qFhmIgfzq7kP9618" version="15.7.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="4 MyVMs">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -658,9 +658,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="88PKPyLJcgs6KWS2oy-n-24" value="3 ConfigureSkybrid VM" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="88PKPyLJcgs6KWS2oy-n-23" connectable="0" vertex="1">
+        <mxCell id="88PKPyLJcgs6KWS2oy-n-24" value="3 Configure&lt;br&gt;Skybrid VM" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="88PKPyLJcgs6KWS2oy-n-23" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-30" y="-362" as="offset" />
+            <mxPoint x="-10" y="-362" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="88PKPyLJcgs6KWS2oy-n-25" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="88PKPyLJcgs6KWS2oy-n-23" connectable="0" vertex="1">
@@ -829,8 +829,10 @@
         <mxCell id="u-DMCYWrtirSnAJwYexo-36" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Sets image, version, description and duration and click next button&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
           <mxGeometry x="390" y="510" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="u-DMCYWrtirSnAJwYexo-39" value="ConfigureVMs_steps" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
-          <mxGeometry x="370" y="730.0012423743285" as="geometry" />
+        <mxCell id="u-DMCYWrtirSnAJwYexo-39" value="Configure&lt;br&gt;VMs_steps" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ntgfPw1k1oM0pjv2z0U9-1">
+          <mxGeometry x="350" y="730.0012423743285" as="geometry">
+            <mxPoint x="-4" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
