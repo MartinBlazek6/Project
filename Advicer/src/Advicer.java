@@ -28,7 +28,7 @@ public class Advicer {
         String option3 = "football";
         String option4 = "running";
         String option5 = "Curling";
-        boolean Statecheck = true;
+        boolean Sportcheck = true;
         boolean ClubCash = true;
         String ChoosenSport = null;
         System.out.print("Do you like to run a lot or you prefer less movement in sport? 1-movement 2-less movement : ");
@@ -64,9 +64,9 @@ public class Advicer {
             System.out.print(advice + option5);
             ChoosenSport = option5;
         } else {System.out.println("I can not help you right now :(");
-            Statecheck = false;}
+            Sportcheck = false;}
 
-        if (Statecheck == true) {
+        if (Sportcheck == true) {
             Scanner my_scan_String = new Scanner(System.in);
             System.out.print("\nIn which city do you want to train? : ");
             String CityClub = my_scan_String.next();
