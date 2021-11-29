@@ -10,6 +10,7 @@ public class Advicer {
         String option3 = "football";
         String option4 = "running";
         String option5 = "Curling";
+        boolean Statecheck = true;
         System.out.print("Do you like to run a lot or you prefer less movement in sport? 1-movement 2-less movement : ");
         Scanner my_scan = new Scanner(System.in);
         char movement =  my_scan.next().charAt(0);
@@ -19,7 +20,6 @@ public class Advicer {
         char season =  my_scan.next().charAt(0);
         System.out.print("Will you be able to spend more than 200€ for beginning? l-less m-more: ");
         char money =  my_scan.next().charAt(0);
-        System.out.print("Ok so my advice : ");
 
         Stream<Character> st = Stream.of(movement,collective,season,money);
         String result = st.map(Object::toString).collect(Collectors.joining());
@@ -38,8 +38,15 @@ public class Advicer {
         }
         else if (result.equals("2ywl")) {
             System.out.print(advice + option5);
-        } else {System.out.print("I can not help you right now :(");}
+        } else {System.out.println("I can not help you right now :(");
+            Statecheck = false;}
 
+        if (Statecheck == true){
+        Scanner my_scan_String = new Scanner(System.in);
+        System.out.print("Are you from Czech or Slovak republic? : ");
+        String sportclubchoose =  my_scan_String.next().toString();
+        System.out.print(sportclubchoose);
+        }
 
 
     }
