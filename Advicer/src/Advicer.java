@@ -11,6 +11,7 @@ public class Advicer {
         String option4 = "running";
         String option5 = "Curling";
         boolean Statecheck = true;
+        boolean ClubCash = true;
         System.out.print("Do you like to run a lot or you prefer less movement in sport? 1-movement 2-less movement : ");
         Scanner my_scan = new Scanner(System.in);
         char movement =  my_scan.next().charAt(0);
@@ -43,9 +44,17 @@ public class Advicer {
 
         if (Statecheck == true){
         Scanner my_scan_String = new Scanner(System.in);
-        System.out.print("Are you from Czech or Slovak republic? : ");
-        String sportclubchoose =  my_scan_String.next().toString();
-        System.out.print(sportclubchoose);
+        System.out.print("\nIn which city do you want to train? : ");
+        String CityClub =  my_scan_String.next().toString();
+            System.out.print("Can you afford to pay monthly or do you want to train fo free? Leave blank input if you don't mind : ");
+            String Mone2Club =  my_scan_String.next().toString();
+            if (Mone2Club == "free") {ClubCash = false;}
+        if (CityClub == "Martin")
+        System.out.print(CityClub);
+            if (ClubCash){
+                System.out.print("Paid club");
+            }
+            else {System.out.print("NonPaid club");}
         }
 
 
