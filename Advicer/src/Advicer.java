@@ -94,16 +94,16 @@ public class Advicer {
                 // Sport_Football
                 if (ChoosenSport.equals(option3)){
                     if (Objects.equals(Mone2Club, "paid")) {
-                        System.out.println("Here are some nonfree clubs for : " + " in " + cities[0] + ChoosenSport + "\n");
-                        System.out.println(Arrays.toString(paidClubsFootball_Martin));
+                        System.out.println("Here are some nonfree clubs for : " + " in " + cities[0] + ChoosenSport);
+                        System.out.println(Arrays.toString(paidClubsFootball_Martin)+ "\n");
                     } else if (Objects.equals(Mone2Club, "*")) {
-                        System.out.println("Here are some free clubs for: " + ChoosenSport + " in " + cities[0] + "\n");
-                        System.out.println(Arrays.toString(freeClubsFootball_Martin));
-                        System.out.println("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[0] + "\n");
-                        System.out.println(Arrays.toString(paidClubsFootball_Martin));
+                        System.out.println("Here are some free clubs for: " + ChoosenSport + " in " + cities[0]);
+                        System.out.println(Arrays.toString(freeClubsFootball_Martin)+ "\n");
+                        System.out.println("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[0]);
+                        System.out.println(Arrays.toString(paidClubsFootball_Martin)+ "\n");
                     } else if (Objects.equals(Mone2Club, "free")) {
-                        System.out.println("Here are some free clubs for:  " + ChoosenSport + " in " + cities[0] + "\n");
-                        System.out.println(Arrays.toString(freeClubsFootball_Martin));
+                        System.out.println("Here are some free clubs for:  " + ChoosenSport + " in " + cities[0]);
+                        System.out.println(Arrays.toString(freeClubsFootball_Martin)+ "\n");
                     }
                 }
                 // Sport_Hockey
