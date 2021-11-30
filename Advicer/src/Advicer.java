@@ -7,7 +7,8 @@ import java.util.stream.Stream;
 public class Advicer {
     public static void main(String[] args){
 
-        //List of clubs
+        //LIST OF CLUBS
+                                            /*MARTIN*/
             //Martin - Football
             String[] freeClubsFootball_Martin = {"FC Nam sa nechce", "Footballers"};
             String[] paidClubsFootball_Martin = {"FCMartin", "FCParadise"};
@@ -19,18 +20,20 @@ public class Advicer {
             //Martin - martial arts
             String[] freeClubsMA_Martin = {"Mortal Combat", "Tekken", "Hospoda u Martina"};
             String[] paidClubsMA_Martin = {"Octagon Martin", "Spartans", "Avengers"};
+                                            /*PRAGUE*/
             //Prague - Football
             String[] freeClubsFootball_Prague = {"FC Nam sa nechce", "Footballers"};
             String[] paidClubsFootball_Prague = {"FCMartin", "FCParadise"};
 
             //Prague - Hockey
             String[] freeClubsHockey_Prague = new String[0];
-            String[] paidClubsHockey_Prague = new String[0];
+            String[] paidClubsHockey_Prague = {"HC Prague", "Hokej v Praze"};
 
             //Prague - martial arts
             String[] freeClubsMA_Prague = {"Mortal Combat", "Tekken", "Hospoda u Honzu"};
             String[] paidClubsMA_Prague = {"Octagon Prague", "Spartans", "Avengers"};
-            //List of cities
+
+            //LIST OF CITIES
         String[] cities = {"Martin", "Bratislava", "Brno", "Prague"};
         //list of sports
         String advice = "Hmm i think you should try : ";
@@ -39,9 +42,10 @@ public class Advicer {
         String option3 = "football";
         String option4 = "running";
         String option5 = "Curling";
+        //VARIABLES
         boolean Sportcheck = true;
-        boolean ClubCash = true;
         String ChoosenSport = null;
+                                                                /*CODE*/
         System.out.print("Do you like to run a lot or you prefer less movement in sport? 1-movement 2-less movement : ");
         Scanner my_scan = new Scanner(System.in);
         char movement =  my_scan.next().charAt(0);
@@ -52,9 +56,10 @@ public class Advicer {
         System.out.print("Will you be able to spend more than 200€ for beginning? l-less m-more: ");
         char money =  my_scan.next().charAt(0);
 
+        //SPORT CHOOSING LOGIC
         Stream<Character> st = Stream.of(movement,collective,season,money);
         String result = st.map(Object::toString).collect(Collectors.joining());
-
+        //Sport codes
         if (result.equals("1ywm")) {
             System.out.print(advice + option1);
             ChoosenSport = option1;
@@ -77,6 +82,7 @@ public class Advicer {
         } else {System.out.println("I can not help you right now :(");
             Sportcheck = false;}
 
+        //CLUB CHOOSE LOGIC
         if (Sportcheck == true) {
             Scanner my_scan_String = new Scanner(System.in);
             System.out.print("\nIn which city do you want to train? : ");
@@ -100,6 +106,7 @@ public class Advicer {
                         System.out.println(Arrays.toString(freeClubsFootball_Martin));
                     }
                 }
+                // Sport_Hockey
                 else if (ChoosenSport.equals(option1)){
                     if (Objects.equals(Mone2Club, "paid")) {
                         System.out.print("Here are some nonfree clubs for : " + " in " + cities[0] + ChoosenSport + "\n");
@@ -117,7 +124,7 @@ public class Advicer {
             }
             //City_Prague
             if (Objects.equals(CityClub, cities[3])) {
-                // Sport_Football
+                // Sport_martialarts
                 if (ChoosenSport.equals(option2)){
                     if (Objects.equals(Mone2Club, "paid")) {
                         System.out.print("Here are some nonfree clubs for : " + " in " + cities[3] + ChoosenSport + "\n");
@@ -132,6 +139,7 @@ public class Advicer {
                         System.out.println(Arrays.toString(freeClubsMA_Prague));
                     }
                 }
+                // Sport_Hockey
                 else if (ChoosenSport.equals(option1)){
                     if (Objects.equals(Mone2Club, "paid")) {
                         System.out.print("Here are some nonfree clubs for : " + " in " + cities[3] + ChoosenSport + "\n");
