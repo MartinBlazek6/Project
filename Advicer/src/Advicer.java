@@ -9,17 +9,28 @@ public class Advicer {
 
         //List of clubs
             //Martin - Football
-            String[] freeClubsFootball = {"FC Nam sa nechce", "Footballers"};
-            String[] paidClubsFootball = {"FCMartin", "FCParadise"};
+            String[] freeClubsFootball_Martin = {"FC Nam sa nechce", "Footballers"};
+            String[] paidClubsFootball_Martin = {"FCMartin", "FCParadise"};
 
             //Martin - Hockey
-            String[] freeClubsHockey = {"HC Martin"};
-            String[] paidClubsHockey = {"MHC Martin", "Ice Breakers"};
+            String[] freeClubsHockey_Martin = {"HC Martin"};
+            String[] paidClubsHockey_Martin = {"MHC Martin", "Ice Breakers"};
 
             //Martin - martial arts
-            String[] freeClubsMA = {"Mortal Combat", "Tekken", "Hospoda u Honzu"};
-            String[] paidClubsMA = {"Octagon Martin", "Spartans", "Avengers"};
-        //List of cities
+            String[] freeClubsMA_Martin = {"Mortal Combat", "Tekken", "Hospoda u Martina"};
+            String[] paidClubsMA_Martin = {"Octagon Martin", "Spartans", "Avengers"};
+            //Prague - Football
+            String[] freeClubsFootball_Prague = {"FC Nam sa nechce", "Footballers"};
+            String[] paidClubsFootball_Prague = {"FCMartin", "FCParadise"};
+
+            //Prague - Hockey
+            String[] freeClubsHockey_Prague = new String[0];
+            String[] paidClubsHockey_Prague = new String[0];
+
+            //Prague - martial arts
+            String[] freeClubsMA_Prague = {"Mortal Combat", "Tekken", "Hospoda u Honzu"};
+            String[] paidClubsMA_Prague = {"Octagon Prague", "Spartans", "Avengers"};
+            //List of cities
         String[] cities = {"Martin", "Bratislava", "Brno", "Prague"};
         //list of sports
         String advice = "Hmm i think you should try : ";
@@ -70,27 +81,72 @@ public class Advicer {
             Scanner my_scan_String = new Scanner(System.in);
             System.out.print("\nIn which city do you want to train? : ");
             String CityClub = my_scan_String.next();
-            System.out.print("Can you afford to pay monthly or do you want to train fo free? Leave * as input if you don't mind options:paid/fre : ");
+            System.out.print("Can you afford to pay for training or do you want to train fo free? Leave * as input if you don't mind options:paid/fre : ");
             String Mone2Club = my_scan_String.next();
-            //System.out.print(Mone2Club);
-            if (Objects.equals(CityClub, "Martin")) {
+            //City_Martin
+            if (Objects.equals(CityClub, cities[0])) {
+                // Sport_Football
                 if (ChoosenSport.equals(option3)){
                     if (Objects.equals(Mone2Club, "paid")) {
-                        System.out.print("Here are some nonfree clubs for : " + ChoosenSport + "\n");
-                        System.out.println(Arrays.toString(paidClubsFootball));
+                        System.out.print("Here are some nonfree clubs for : " + " in " + cities[0] + ChoosenSport + "\n");
+                        System.out.println(Arrays.toString(paidClubsFootball_Martin));
                     } else if (Objects.equals(Mone2Club, "*")) {
-                        System.out.print("Here are some free clubs for: " + ChoosenSport + "\n");
-                        System.out.println(Arrays.toString(freeClubsFootball));
-                        System.out.print("Here are some nonfree clubs for:  " + ChoosenSport + "\n");
-                        System.out.println(Arrays.toString(paidClubsFootball));
+                        System.out.print("Here are some free clubs for: " + ChoosenSport + " in " + cities[0] + "\n");
+                        System.out.println(Arrays.toString(freeClubsFootball_Martin));
+                        System.out.print("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[0] + "\n");
+                        System.out.println(Arrays.toString(paidClubsFootball_Martin));
                     } else if (Objects.equals(Mone2Club, "free")) {
-                        System.out.print("Here are some free clubs for:  " + ChoosenSport + "\n");
-                        System.out.println(Arrays.toString(freeClubsFootball));
+                        System.out.print("Here are some free clubs for:  " + ChoosenSport + " in " + cities[0] + "\n");
+                        System.out.println(Arrays.toString(freeClubsFootball_Martin));
+                    }
+                }
+                else if (ChoosenSport.equals(option1)){
+                    if (Objects.equals(Mone2Club, "paid")) {
+                        System.out.print("Here are some nonfree clubs for : " + " in " + cities[0] + ChoosenSport + "\n");
+                        System.out.println(Arrays.toString(paidClubsHockey_Martin));
+                    } else if (Objects.equals(Mone2Club, "*")) {
+                        System.out.print("Here are some free clubs for: " + ChoosenSport + " in " + cities[0] + "\n");
+                        System.out.println(Arrays.toString(freeClubsHockey_Martin));
+                        System.out.print("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[0] + "\n");
+                        System.out.println(Arrays.toString(paidClubsHockey_Martin));
+                    } else if (Objects.equals(Mone2Club, "free")) {
+                        System.out.print("Here are some free clubs for:  " + ChoosenSport + " in " + cities[0] + "\n");
+                        System.out.println(Arrays.toString(freeClubsHockey_Martin));
+                    }
+                }
+            }
+            //City_Prague
+            if (Objects.equals(CityClub, cities[3])) {
+                // Sport_Football
+                if (ChoosenSport.equals(option2)){
+                    if (Objects.equals(Mone2Club, "paid")) {
+                        System.out.print("Here are some nonfree clubs for : " + " in " + cities[3] + ChoosenSport + "\n");
+                        System.out.println(Arrays.toString(paidClubsMA_Prague));
+                    } else if (Objects.equals(Mone2Club, "*")) {
+                        System.out.print("Here are some free clubs for: " + ChoosenSport + " in " + cities[3] + "\n");
+                        System.out.println(Arrays.toString(freeClubsMA_Prague));
+                        System.out.print("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[3] + "\n");
+                        System.out.println(Arrays.toString(paidClubsMA_Prague));
+                    } else if (Objects.equals(Mone2Club, "free")) {
+                        System.out.print("Here are some free clubs for:  " + ChoosenSport + " in " + cities[3] + "\n");
+                        System.out.println(Arrays.toString(freeClubsMA_Prague));
+                    }
+                }
+                else if (ChoosenSport.equals(option1)){
+                    if (Objects.equals(Mone2Club, "paid")) {
+                        System.out.print("Here are some nonfree clubs for : " + " in " + cities[3] + ChoosenSport + "\n");
+                        System.out.println(Arrays.toString(paidClubsHockey_Prague));
+                    } else if (Objects.equals(Mone2Club, "*")) {
+                        System.out.print("Here are some free clubs for: " + ChoosenSport + " in " + cities[3] + "\n");
+                        System.out.println(Arrays.toString(freeClubsHockey_Prague));
+                        System.out.print("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[3] + "\n");
+                        System.out.println(Arrays.toString(paidClubsHockey_Prague));
+                    } else if (Objects.equals(Mone2Club, "free")) {
+                        System.out.print("Here are some free clubs for:  " + ChoosenSport + " in " + cities[3] + "\n");
+                        System.out.println(Arrays.toString(freeClubsHockey_Prague));
                     }
                 }
             }
         }
-
-
     }
 }
