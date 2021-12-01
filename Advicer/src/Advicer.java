@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 
 public class Advicer {
     public static void main(String[] args){
-
         //LIST OF CLUBS
                                             /*MARTIN*/
             //Martin - Football
@@ -142,15 +141,15 @@ public class Advicer {
                 // Sport_Hockey
                 else if (ChoosenSport.equals(option1)){
                     if (Objects.equals(Mone2Club, "paid")) {
-                        System.out.print("Here are some nonfree clubs for : " + " in " + cities[3] + ChoosenSport);
+                        System.out.println("Here are some nonfree clubs for : " + " in " + cities[3] + ChoosenSport);
                         System.out.println(Arrays.toString(paidClubsHockey_Prague)+ "\n");
                     } else if (Objects.equals(Mone2Club, "*")) {
-                        System.out.print("Here are some free clubs for: " + ChoosenSport + " in " + cities[3]);
+                        System.out.println("Here are some free clubs for: " + ChoosenSport + " in " + cities[3]);
                         System.out.println(Arrays.toString(freeClubsHockey_Prague)+ "\n");
-                        System.out.print("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[3]);
+                        System.out.println("Here are some nonfree clubs for:  " + ChoosenSport + " in " + cities[3]);
                         System.out.println(Arrays.toString(paidClubsHockey_Prague)+ "\n");
                     } else if (Objects.equals(Mone2Club, "free")) {
-                        System.out.print("Here are some free clubs for:  " + ChoosenSport + " in " + cities[3]);
+                        System.out.println("Here are some free clubs for:  " + ChoosenSport + " in " + cities[3]);
                         System.out.println(Arrays.toString(freeClubsHockey_Prague)+ "\n");
                     }
                 }
