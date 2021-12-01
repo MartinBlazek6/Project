@@ -143,9 +143,8 @@ img {
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--clr-primary-250);
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .5s;
+    transition: .5s;
   }
 
   .slider:before {
@@ -157,8 +156,7 @@ img {
     bottom: 4px;
     background-size: 100%;
     background-image: var(--clr-image-btn);
-    -webkit-transition: .4s;
-    transition: .4s;
+
   }
   .check{
     width: 50px;
@@ -197,7 +195,7 @@ img {
      color: rgba(207, 207, 207, 0.808);
     --clr-primary-200: rgb(190, 190, 190);
 
-    --clr-primary-250: #131313;
+    --clr-primary-250: black;
 
     --clr-primary-400: #ffffffd8;
 
@@ -208,10 +206,11 @@ img {
     --clr-image-btn: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8gkm6SJbPTnphTccfvQNIn-2z8Wvcsdh7tQ&usqp=CAU");
 
     --clr-neutral-900: #0a0909;
-  background-color: black;
+  background-color: rgb(25, 25, 25);
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
-
+    -webkit-transition: .5s;
+    transition: .9s;
   }
 
 
@@ -220,8 +219,13 @@ img {
   transition: 1s;
   cursor: pointer;
   color: white;  text-decoration: underline;
-
 }
+
+#first:hover{
+  transition: 1s;
+  cursor: pointer;
+}
+
 
 .time input{
   width: 50px;
@@ -239,7 +243,12 @@ img {
 
 
 
-
+.splitleft{
+padding-right: 2rem;
+}
+.splitright{
+  padding-left: 2rem;
+}
 
 
 

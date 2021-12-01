@@ -27,9 +27,9 @@
   </header>  
     <section>
 <div class="container"></div>
-  <h2 class="text-center">My introduction</h2>
+  <h2 class="text-center" id="first">My introduction</h2>
   <div class="split">
-      <div>
+      <div class="splitleft">
           <h4>Heading 1</h4>
       <p>Specialize in manual testing, sprint condition controling, write and read
         in MS SQL. Proven ability in XML, JSON, HTML, CSS, C#, C++.
@@ -37,7 +37,7 @@
         sense of detail. Excellent communicative skills, sense for an effective
         problem solving and resitence to work in stress.</p>
     </div>
-      <div>
+      <div class="splitright">
         <h4>Heading 2</h4>
           <p>bla bla bla bla bla blablabla blablabla   bla bla bla bla bla blablabla blablabla  
             bla bla bla bla bla blablabla blablabla  
@@ -55,7 +55,7 @@
       <div class="container">
         <div class="split">
             <div class="info">
-                <h2 class="MEinfo" id="1" >Skills and certificates</h2>
+                <h2 class="MEinfo" id="second" >Skills and certificates</h2>
                     <div class="info_main1">
                     <h4>Gymnázium Mikuláša Galandu, Turčianske Teplice</h4>
                     <ul> September 2007- August 2015</ul>
@@ -90,7 +90,7 @@
               <span class="tooltiptext">More info about my current work</span>
             </div>
             <div class="info">
-                <h2 class="MEinfo" id="2">Work experiences</h2>
+                <h2 class="MEinfo" id="third">Work experiences</h2>
                   <div class="info_main2">
                   <h4>Technical Engineer Security and alarm systems</h4>
                     <ul> January 2020 — January 2021</ul>
@@ -124,7 +124,7 @@
   <div class="container">
     <div class="split">
         <div class="info">
-            <h2 class="MEinfo" id="3" >My hobies.. in progress</h2>
+            <h2 class="MEinfo" id="fourth" >My hobies.. in progress</h2>
                 <div class="info_main3">
                 <h4>Basic description number 1</h4>
                 <ul> how long i do this</ul>
@@ -168,18 +168,23 @@ $(function(){
     });
 
   $(function() {
+    //Introduction
+    $('#first').on('click', function(){
+      $('.splitright').slideToggle(350);
+      $('.splitleft').slideToggle(350);
+    })
     //Skills and certificates
-    $('#1').on('click', function(){
+    $('#second').on('click', function(){
       $('.tooltip1').slideToggle(350);
       $('.info_main1').slideToggle(350);
     })
     //Work experiences
-    $('#2').on('click', function(){
+    $('#third').on('click', function(){
       $('.tooltip2').slideToggle(350);
       $('.info_main2').slideToggle(350);
     })
     //My hobies
-    $('#3').on('click', function(){
+    $('#fourth').on('click', function(){
       $('.tooltip3').slideToggle(350);
       $('.info_main3').slideToggle(350);
     })
