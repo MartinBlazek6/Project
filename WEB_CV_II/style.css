@@ -219,11 +219,19 @@ img {
   transition: 1s;
   cursor: pointer;
   color: white;  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 #first:hover{
-  transition: 1s;
+  transition: 10ms;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 1.65em;
+  font-weight: bold;
+  transition: all 500ms;
+  font-size:1.65em;
+  font-size-adjust: 1em;
 }
 
 
