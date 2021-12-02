@@ -280,7 +280,8 @@ max-width:380px;
 }
 .tooltip1,
 .tooltip2,
-.tooltip3 {
+.tooltip3,
+.tooltip4 {
   position: relative;
   display: inline-block;
   max-width:380px;
@@ -290,6 +291,7 @@ max-width:380px;
 .tooltip1 .tooltiptext, 
 .tooltip2 .tooltiptext,
 .tooltip3 .tooltiptext,
+.tooltip4 .tooltiptext,
 .tooltip_1 .tooltiptext {
   visibility: hidden;
   width: auto;
@@ -308,7 +310,8 @@ max-width:380px;
   }
 .tooltip1:hover .tooltiptext,
 .tooltip2:hover .tooltiptext,
-.tooltip3:hover .tooltiptext {
+.tooltip3:hover .tooltiptext,
+.tooltip4:hover .tooltiptext {
   visibility: visible;
   }
 

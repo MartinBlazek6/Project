@@ -32,47 +32,57 @@
       <div class="splitleft">
           <h4>What I actually do</h4>
       <p>I am <b>Software Quality Engineer</b> at tech focused company. I am participating on software development to biggest microscope supplier in the world. I work with <b>Python</b>,
-        but in my free time I am practicing <b>C# and Java too</b>. I have learned basics of <b>HTML, CSS and Javascript</b> couple months ago and I love it! 
+        but in my free time I am practicing <b>C# and Java too</b>. I have learned basics of <b>HTML, CSS and Javascript</b> couple months ago and I love it! In present I am
+        student of <b>Green Fox Academy</b>. I like the way how mentors are helping to as, also psychologists are very kind and inspirative. I hope so after course we will stay 
+        in touch.
       </p>
     </div>
       <div class="splitright">
         <h4>What am I looking forward to</h4>
-          <p>I would like to become Software Developer, I like backend and frontend as well. I am big fan of science and design so I am looking forward to learn some 
+          <p>I would like to become <b>Software Developer</b>, I like backend and frontend as well. I am big fan of science and design so I am looking forward to learn some 
             frontend frameworks as <b>Angular</b> or <b>Vue</b>. As I said I like science and tech features too, so I in future I will like to create some interestings
           project in Python. <b>I like AI tracking</b>, It could be used for fun apps but also for saving lives and making our live much easier. </p>
       </div>
 </div>
 </div> 
     </section> 
+<!-- SKILLS AND CERTIFICATES -->
   <section class="bg-primary">
       <div class="container">
         <div class="split">
             <div class="info">
                 <h2 class="MEinfo" id="second" >Skills and certificates</h2>
                     <div class="info_main1">
-                    <h4>Gymnázium Mikuláša Galandu, Turčianske Teplice</h4>
-                    <ul> September 2007- August 2015</ul>
+                    <h4>CERTIFICATES</h4>
+                    <ul> <b>ECDL - European Computer Driving Licence</b> </ul>
                     <p>
-                        Sixth- form college with Math and IT specialization</p>
+                        Basics of MS office 365</p>
                         <br>
-                        <br>
+                        <ul> <b>ISTQB - Foundation level</b> </ul>
+                    <p>
+                        Software testing basics</p>
                         <br>
 
-                        <h4>Univerzita Tomáše Bati ve Zlíne, Zlín</h4>
-                    <ul> September 2017- present</ul>
-                        <p>Faculty of Applied Informatics- The Department of Security
-                        Engineering </p>
+                    <h4>SKILLS</h4>
+                        <ul>
+                            <p>Stress</p>
+                            <p>Friendly</p>
+                            <p>Something</p>
+                            <p>Else</p>
+
+                        </ul>
                     </div>
             </div>
             <div class="tooltip1">
                 <a href="https://fai.utb.cz/en/faculty/about-us/structure/departments/the-department-of-security-engineering/about-the-department/"target="_blank">
-                <img id="school" src="http://www.communicationresearch.org/wp-content/uploads/2020/08/featured-img.jpg" alt="">
+                <img id="school" src="https://www.approachpeople.com/wp-content/uploads/2018/03/write-a-winning-cv-featured-Image.jpg" alt="">
               </a>
-              <span class="tooltiptext">More info about my current education</span>
+              <span class="tooltiptext">Download CV as PDF</span>
             </div>
         </div>
     </div>
   </section>
+<!-- WORK EXPERIENCES -->
   <section class="bg-dark">
     <div class="container">
         <div class="split">
@@ -105,14 +115,13 @@
                         <br>
                         <h4>SQA Engineer, Edhouse</h4>
                     <ul> Spetember 2021— Present</ul>
-                        <p>Quality assurance Software Tester Engineer Automation/Manual testing </p>
-                    
-                        
+                        <p>Quality assurance Software Tester Engineer Automation/Manual testing </p>       
               </div>
             </div>
         </div>
     </div>
 </section>
+<!-- HOBIES -->
 <section class="bg-primary">
   <div class="container">
     <div class="split">
@@ -148,6 +157,36 @@
     </div>
 </div>
 </section>
+<!-- EDUCATION -->
+<section class="bg-dark">
+  <div class="container">
+    <div class="split">
+        <div class="info">
+            <h2 class="MEinfo" id="fifth" >Education</h2>
+                <div class="info_main4">
+                <h4>Gymnázium Mikuláša Galandu, Turčianske Teplice</h4>
+                <ul> September 2007- August 2015</ul>
+                <p>
+                    Sixth- form college with Math and IT specialization</p>
+                    <br>
+                    <br>
+                    <br>
+
+                    <h4>Univerzita Tomáše Bati ve Zlíne, Zlín</h4>
+                <ul> September 2017- present</ul>
+                    <p>Faculty of Applied Informatics- The Department of Security
+                    Engineering </p>
+                </div>
+        </div>
+        <div class="tooltip4">
+            <a href="https://fai.utb.cz/en/faculty/about-us/structure/departments/the-department-of-security-engineering/about-the-department/"target="_blank">
+            <img id="school" src="http://www.communicationresearch.org/wp-content/uploads/2020/08/featured-img.jpg" alt="">
+          </a>
+          <span class="tooltiptext">More info about my current education</span>
+        </div>
+    </div>
+</div>
+</section>
 <script>
   //SCRIPTS//
 $(function(){
@@ -160,6 +199,8 @@ $(function(){
       $('.info_main2').slideToggle(0);
       $('.tooltip3').slideToggle(0);
       $('.info_main3').slideToggle(0);
+      $('.tooltip4').slideToggle(0);
+      $('.info_main4').slideToggle(0);
     });
 
   $(function() {
@@ -182,6 +223,11 @@ $(function(){
     $('#fourth').on('click', function(){
       $('.tooltip3').slideToggle(350);
       $('.info_main3').slideToggle(350);
+    })
+    //Education
+    $('#fifth').on('click', function(){
+      $('.tooltip4').slideToggle(350);
+      $('.info_main4').slideToggle(350);
     })
   });
 
