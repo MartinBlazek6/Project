@@ -107,6 +107,7 @@ img {
     max-height:300px;
     width: auto;
     height: auto;
+    border-radius: 5px;
   }
   .bg-primary h2,
   .bg-dark h2{

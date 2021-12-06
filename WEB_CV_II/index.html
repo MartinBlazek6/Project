@@ -74,10 +74,10 @@
                     </div>
             </div>
             <div class="tooltip1">
-                <a href="https://fai.utb.cz/en/faculty/about-us/structure/departments/the-department-of-security-engineering/about-the-department/"target="_blank">
+              <a href="CV.pdf" target="_blank">
                 <img id="school" src="https://www.approachpeople.com/wp-content/uploads/2018/03/write-a-winning-cv-featured-Image.jpg" alt="">
               </a>
-              <span class="tooltiptext">Download CV as PDF</span>
+              <span class="tooltiptext">Don't forget to see my CV</span>
             </div>
         </div>
     </div>
@@ -95,17 +95,10 @@
             <div class="info">
                 <h2 class="MEinfo" id="third">Work experiences</h2>
                   <div class="info_main2">
-                  <h4>Technical Engineer Security and alarm systems</h4>
-                    <ul> January 2020 — January 2021</ul>
+                    <h4>SQA Engineer, Edhouse</h4>
+                    <ul> Spetember 2021— Present</ul>
                     <p>
-                        Service of security systems, IP cameras and networking</p>
-                        <br>
-                        <br>
-
-                        <h4>Assistant of Director of Civile Defence, Department of the
-                            Interior SR</h4>
-                    <ul> April 2016 — June 2016</ul>
-                        <p>Postgraduate intership in civil protection of the region </p>
+                        Software Quality Engineer Automation/Manual testing </p>
                         <br>
                         <br>
                         <h4>Quality Assurance, Business Logic</h4>
@@ -113,9 +106,15 @@
                         <p>Quality assurance Software Tester Engineer </p>
                         <br>
                         <br>
-                        <h4>SQA Engineer, Edhouse</h4>
-                    <ul> Spetember 2021— Present</ul>
-                        <p>Software Quality Engineer Automation/Manual testing </p>       
+                        <h4>Technical Engineer Security and alarm systems</h4>
+                    <ul> January 2020 — January 2021</ul>
+                        <p>Service of security systems, IP cameras and networking </p>
+                        <br>
+                        <br>
+                        <h4>Assistant of Director of Civile Defence, Department of the
+                          Interior SR</h4>
+                    <ul> April 2016 — June 2016</ul>
+                        <p>Postgraduate intership in civil protection of the region </p>   
               </div>
             </div>
         </div>
@@ -128,31 +127,29 @@
         <div class="info">
             <h2 class="MEinfo" id="fourth" >My projects</h2>
                 <div class="info_main3">
-                <h4>Basic description number 1</h4>
-                <ul> how long i do this</ul>
+                <h4>Web Development</h4>
+                <ul>Social media based on restaurants</ul>
                 <p>
-                    moooooooooooooore about this</p>
+                    Social media based on sharing green restaurants to peaple. Peaple can send requests to each other
+                  or share recipes. Instead of likes they are giving greenpoints. Greenpoints can be used to discounts in restaurants or donated
+                to startups trying to reduce polution.  </p>
                     <br>
                     <br>
                     <br>
 
-                    <h4>Basic description number 1</h4>
-                <ul> how long i do this</ul>
-                    <p>lablabla   bla bla bla bla bla blablabla blablabla   bla bla bla bla bla blablabla blablabla  
-                       bla bla bla bla bla blablabla blablabla  
-                       bla bla bla bla bla blablablablablabla   bla bla bla bla bla blablablablablabla  
-                        bla bla bla bla bla blablablab 
-                        lablabla   bla bla bla bla bla blablabla blablabla   bla bla bla bla bla blablabla blablabla  
-                        bla bla bla bla bla blablabla blablabla  
-                        bla bla bla bla bla blablablablablabla   bla bla bla bla bla blablablablablabla  
-                         bla bla bla bla bla blablabla</p>
+                    <h4>AI using python</h4>
+                <ul>Sign language translator</ul>
+                    <p>There are not a lot of sign language translators, that are translating text to sign language but you still can find somes. What about
+                      translator tracking human body and translating sign language into text or audio? I would realy like to finish this project if you are interested
+                      please contact me.
+                    </p>
                 </div>
         </div>
         <div class="tooltip3">
-            <a href="https://www.earthtrekkers.com/hike-high-tatras-of-slovakia-how-to-plan-your-visit/"target="_blank">
-            <img id="school" src="https://thumbs.dreamstime.com/b/different-hobbies-flat-lay-composition-laptop-smartphone-stationery-black-wooden-table-187729558.jpg" alt="">
+            <a href="https://www.linkedin.com/in/martin-bla%C5%BEek-a5152a219/"target="_blank">
+            <img id="school" src="https://cuttingedgepr.com/wp-content/uploads/2020/06/Project-management-2-Shutterstock_706715482.jpg" alt="">
           </a>
-          <span class="tooltiptext">What I realy love most!!!</span>
+          <span class="tooltiptext">Would you like to participate?</span>
         </div>
     </div>
 </div>
@@ -233,23 +230,6 @@ $(function(){
 
 
 
-  //
-$('#testing').on('click',function() {
-  var req = new XMLHttpRequest();
-  req.open("GET", "C:\Users\marti\Documents\Projects\WEB_CV", true);
-  req.responseType = "blob";
-
-  req.onload = function (event) {
-    var blob = req.response;
-    console.log(blob.size);
-    var link=document.createElement('a');
-    link.href=window.URL.createObjectURL(blob);
-    link.download="Dossier_" + new Date() + ".pdf";
-    link.click();
-  };
-
-  req.send();
-})
 
 </script>
 </body>
